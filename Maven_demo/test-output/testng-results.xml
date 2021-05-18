@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49972" started-at="2021-05-17T05:59:12Z" finished-at="2021-05-17T06:00:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49972" started-at="2021-05-17T05:59:12Z" finished-at="2021-05-17T06:00:02Z">
+      <class name="testcases.JiraLoginTest">
+        <test-method status="PASS" signature="OpenBrowserr()[pri:0, instance:testcases.JiraLoginTest@5c3bd550]" name="OpenBrowserr" is-config="true" duration-ms="9516" started-at="2021-05-17T05:59:12Z" finished-at="2021-05-17T05:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserr -->
+        <test-method status="PASS" signature="Testlogin_fp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.JiraLoginTest@5c3bd550]" name="Testlogin_fp" duration-ms="38264" started-at="2021-05-17T05:59:21Z" finished-at="2021-05-17T06:00:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[droidmahesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello@779966]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is related to testng bug]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hai this bug is rectified by selenium tester s djaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testlogin_fp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.JiraLoginTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="2152" started-at="2021-05-17T06:00:00Z" finished-at="2021-05-17T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.JiraLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

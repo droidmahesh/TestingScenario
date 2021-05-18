@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="summary" value="this is related to testng bug"/>
+    <parameter name="password" value="Hello@779966"/>
+    <parameter name="description" value="hai this bug is rectified by selenium tester s djaj"/>
+    <parameter name="url" value="https://id.atlassian.com/login"/>
+    <parameter name="username" value="droidmahesh@gmail.com"/>
+    <classes>
+      <class name="testcases.JiraLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OpenBrowserr"/>
+          <include name="Testlogin_fp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.JiraLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
