@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="5" name="LoginTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="flipKartlogin.LoginTest">
+        <methods>
+          <include name="Flipkart_Login"/>
+          <include name="OpenBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- flipKartlogin.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="LginTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="flipKartlogin.LoginTest">
+        <methods>
+          <include name="Flipkart_Login"/>
+          <include name="OpenBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- flipKartlogin.LoginTest -->
+    </classes>
+  </test> <!-- LginTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

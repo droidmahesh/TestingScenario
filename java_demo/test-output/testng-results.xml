@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54594" started-at="2021-05-17T13:15:50Z" finished-at="2021-05-17T13:16:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54594" started-at="2021-05-17T13:15:50Z" finished-at="2021-05-17T13:16:44Z">
+      <class name="flipKartlogin.LoginTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:flipKartlogin.LoginTest@20e2cbe0]" name="OpenBrowser" is-config="true" duration-ms="21807" started-at="2021-05-17T13:15:50Z" finished-at="2021-05-17T13:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Flipkart_Login()[pri:0, instance:flipKartlogin.LoginTest@20e2cbe0]" name="Flipkart_Login" duration-ms="32617" started-at="2021-05-17T13:16:11Z" finished-at="2021-05-17T13:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flipkart_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:flipKartlogin.LoginTest@20e2cbe0]" name="tearDown" is-config="true" duration-ms="138" started-at="2021-05-17T13:16:44Z" finished-at="2021-05-17T13:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- flipKartlogin.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
